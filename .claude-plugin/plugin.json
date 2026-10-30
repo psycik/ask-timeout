@@ -1,0 +1,13 @@
+{
+  "name": "ask-timeout",
+  "version": "0.1.0",
+  "description": "Answers an unanswered AskUserQuestion after a configurable timeout, telling the agent to decide for itself.",
+  "userConfig": {
+    "timeoutMinutes": {
+      "type": "number",
+      "title": "Timeout (minutes)",
+      "description": "Minutes to wait for an answer before the agent is told to decide. 0 turns the timeout off.",
+      "default": 15
+    }
+  }
+}

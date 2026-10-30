@@ -1,0 +1,5 @@
+{
+  "name": "ask-timeout",
+  "owner": { "name": "psycik" },
+  "plugins": [{ "name": "ask-timeout", "source": "./" }]
+}
